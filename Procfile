@@ -1,1 +1,1 @@
-worker: python kisuke_bot.py
+worker: python nhkt_bot.py
