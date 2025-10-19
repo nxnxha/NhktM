@@ -3,6 +3,6 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "python kisuke_bot.py"
+    "startCommand": "python nhkt_bot.py"
   }
 }
