@@ -1,5 +1,5 @@
 
-# Nhkt — Voice Lock (préfixe `,`) — GitHub ➜ Railway
+# Nhkt — Voice Lock (préfixe `$`) — GitHub ➜ Railway
 
 - Salon vocal cible: `1400519979660742896`
 - Rôles admin à bloquer: `1400518143595778079`, `1400518147097759815`
