@@ -8,7 +8,7 @@ import os, json, asyncio
 intents = discord.Intents.default()
 intents.message_content = True
 intents.members = True
-PREFIX = os.getenv("PREFIX", ",")
+PREFIX = os.getenv("PREFIX", "-")
 bot = commands.Bot(command_prefix=PREFIX, intents=intents, help_command=None)
 
 # ─── CONFIG VIA ENV (avec valeurs par défaut de ta demande) ───────────────
