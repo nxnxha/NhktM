@@ -1,7 +1,6 @@
 
-# Kisuke — Voice Lock (préfixe `¤`) — GitHub ➜ Railway
+# Nhkt — Voice Lock (préfixe `,`) — GitHub ➜ Railway
 
-- Admins autorisés: `670301667341631490`, `1359569212531675167`
 - Salon vocal cible: `1400519979660742896`
 - Rôles admin à bloquer: `1400518143595778079`, `1400518147097759815`
 - Quand tu WL un user/role → accès au vocal accordé automatiquement.
@@ -10,10 +9,10 @@
 ```bash
 pip install -r requirements.txt
 cp .env.example .env  # ajoute ton token
-python kisuke_bot.py
+python nhkt_bot.py
 ```
 
 ## Railway
 - Déploie ce dossier via GitHub
 - Variables: `DISCORD_TOKEN` (+ optionnel `PREFIX`, `VOICE_CHANNEL_ID`, `AUTHORIZED_ADMINS`, `BLOCKED_ADMIN_ROLE_IDS`)
-- Le start est `python kisuke_bot.py`
+- Le start est `python nhkt_bot.py`
