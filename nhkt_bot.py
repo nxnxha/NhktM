@@ -8,7 +8,7 @@ import os, json, asyncio
 intents = discord.Intents.default()
 intents.message_content = True
 intents.members = True
-PREFIX = os.getenv("PREFIX", "¤")
+PREFIX = os.getenv("PREFIX", ",")
 bot = commands.Bot(command_prefix=PREFIX, intents=intents, help_command=None)
 
 # ─── CONFIG VIA ENV (avec valeurs par défaut de ta demande) ───────────────
@@ -24,8 +24,8 @@ TOKEN = os.getenv("DISCORD_TOKEN")
 if not TOKEN:
     raise RuntimeError("⚠️ DISCORD_TOKEN manquant.")
 
-VOICE_CHANNEL_ID = int(os.getenv("VOICE_CHANNEL_ID", "1400519979660742896"))
-AUTHORIZED_ADMINS = parse_int_list(os.getenv("AUTHORIZED_ADMINS", "670301667341631490,1359569212531675167"))
+VOICE_CHANNEL_ID = int(os.getenv("VOICE_CHANNEL_ID", "1428061918702342208"))
+AUTHORIZED_ADMINS = parse_int_list(os.getenv("AUTHORIZED_ADMINS", "1163460580779245608,1359569212531675167"))
 BLOCKED_ADMIN_ROLE_IDS = parse_int_list(os.getenv("BLOCKED_ADMIN_ROLE_IDS", "1400518143595778079,1400518147097759815"))
 
 USER_WL_FILE = "whitelist_users.json"
